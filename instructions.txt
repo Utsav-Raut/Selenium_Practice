@@ -1,0 +1,22 @@
+Download Java, Eclipse.
+
+Then go to : https://www.selenium.dev/downloads/ 
+and under “Selenium Client & WebDriver Language Bindings”, click on ‘Download’ link for language Java.
+
+Right Click your project on the left and click on properties. A “Properties for {project name}” dialog box will appear. 
+Click on “Java Build Path” on the left and then click on the Libraries tab on the right. In this tab click on the “Add External Jars..” button.
+
+Now browse to the location where selenium libraries are placed. 
+Make sure to add both the libraries-selenium-java-2.39.0.jar and selenium-java-2.39.0-srcs.jar along with the libraries present in the 
+libs folder(selenium-2.39.0\libs). The selected libraries will appear, click OK to add these libraries to your project. 
+You can verify the same in the “Referenced Libraries” section under your project in the “Package Explorer” section on the left.
+
+
+URL to download Chrome driver:
+https://chromedriver.chromium.org/downloads
+
+https://the-internet.herokuapp.com/
+
+
+
+Other websites: https://bugbug.io/blog/software-testing/best-selenium-practice-websites/
